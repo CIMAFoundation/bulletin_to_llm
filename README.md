@@ -9,7 +9,7 @@ git clone https://github.com/CIMAFoundation/bulletin_to_llm.git
 cd into the directory
 
 ```bash
-cd bulletin-to-llm-test
+cd bulletin-to-llm
 ```
 
 create the virtual environment with conda
@@ -24,11 +24,21 @@ activate the virtual environment
 conda activate .venv/
 ```
 
-
-
 install the dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
+
+add your openai key to the .env file
+
+```bash
+OPENAI_API_KEY=your_key_here
+```
+
+run the script
+
+```bash
+python main.py
+```
