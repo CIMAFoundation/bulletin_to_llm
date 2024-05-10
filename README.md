@@ -3,7 +3,7 @@
 clone the repository
 
 ```bash
-git clone https:...
+git clone https://github.com/CIMAFoundation/bulletin_to_llm.git
 ```
 
 cd into the directory
