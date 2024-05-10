@@ -11,8 +11,8 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 data = json.load(open('docs/683.json', 'r'))
 prompt_template_text = """
-tell me a joke about this date and number
-{{ bulletin.date }} ({{ bulletin.id }})
+make a short summary of this html text
+{{ bulletin.components.text_highlights_meteo }} 
 """
 
 args = {
